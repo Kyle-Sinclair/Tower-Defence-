@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 282c5ac52a72ea344bca1f22f15b9496, type: 3}
+  m_Name: Enemy Cube Factory
+  m_EditorClassIdentifier: 
+  small:
+    prefab: {fileID: 2670157835238098710, guid: d37d09ea9faaec145b9fd2d799502710, type: 3}
+    scale:
+      min: 0.5
+      max: 0.5
+    speed:
+      min: 1
+      max: 1.5
+    pathOffset:
+      min: 0
+      max: 0
+    health:
+      min: 100
+      max: 100
+  medium:
+    prefab: {fileID: 2670157835238098710, guid: c16f81f50c5205e47a1eeb4caaf450e1, type: 3}
+    scale:
+      min: 0.5
+      max: 1.5
+    speed:
+      min: 0.5
+      max: 1
+    pathOffset:
+      min: 0
+      max: 0
+    health:
+      min: 100
+      max: 225.25548
+  large:
+    prefab: {fileID: 2670157835238098710, guid: 71d6ceacced6e66458c805c5dabc5de0, type: 3}
+    scale:
+      min: 1.5
+      max: 2
+    speed:
+      min: 0.25
+      max: 0.5
+    pathOffset:
+      min: 0
+      max: 0
+    health:
+      min: 250
+      max: 500

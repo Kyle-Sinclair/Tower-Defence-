@@ -1,0 +1,1487 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2670157833895465966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2670157833895465967}
+  m_Layer: 9
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2670157833895465967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2670157833895465966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476127}
+  m_Father: {fileID: 2670157835238098711}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2670157835238098709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2670157835238098711}
+  - component: {fileID: 2670157835238098710}
+  m_Layer: 9
+  m_Name: Grenadier Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2670157835238098711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2670157835238098709}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.055, y: 0.277, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2670157833895465967}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2670157835238098710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2670157835238098709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d942afff1e811094d8b0d581e87e222e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originFactory: {fileID: 0}
+  model: {fileID: 2670157833895465967}
+  animationConfig: {fileID: 11400000, guid: e423d662b2878a4469c30ed65a2c9744, type: 2}
+--- !u!1 &6116633865877966465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292740, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476193}
+  m_Layer: 0
+  m_Name: Grenadier_RightArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595300, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966465}
+  m_LocalRotation: {x: 0.0000000016311453, y: 0.000007096536, z: -0.000000011031503, w: 1}
+  m_LocalPosition: {x: 0.14296517, y: -0.0000000016783639, z: 0.000000019749818}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877475995}
+  m_Father: {fileID: 6116633865877475979}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292742, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476195}
+  m_Layer: 0
+  m_Name: Grenadier_RightChestArmor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595302, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966467}
+  m_LocalRotation: {x: 0.2377015, y: -0.76286006, z: 0.25439483, w: 0.5448172}
+  m_LocalPosition: {x: 0.02639707, y: 0.118557744, z: 0.1371888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877475997}
+  m_Father: {fileID: 6116633865877475969}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292736, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476197}
+  m_Layer: 0
+  m_Name: Grenadier_LeftUpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595296, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966469}
+  m_LocalRotation: {x: 0.0000008284351, y: -0.0000002917738, z: -0.16193211, w: 0.9868019}
+  m_LocalPosition: {x: -0.12420431, y: -1.4210854e-16, z: 1.2212453e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476163}
+  m_Father: {fileID: 6116633865877476207}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292738, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476199}
+  m_Layer: 0
+  m_Name: Grenadier_LeftUpperLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595298, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966471}
+  m_LocalRotation: {x: 0.057086363, y: -0.00000064575124, z: 0.9983693, w: -0.0000046892123}
+  m_LocalPosition: {x: 0.020613646, y: -0.1146814, z: 0.009722719}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476205}
+  m_Father: {fileID: 6116633865877476161}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292748, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476201}
+  m_Layer: 0
+  m_Name: Grenadier_LeftThumb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595308, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966473}
+  m_LocalRotation: {x: -7.2592388e-12, y: -1.4548425e-11, z: 0.4464767, w: 0.89479524}
+  m_LocalPosition: {x: -0.017185288, y: -0.022426624, z: -0.00369255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476203}
+  m_Father: {fileID: 6116633865877476213}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292750, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476203}
+  m_Layer: 0
+  m_Name: Grenadier_LeftThumbEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595310, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966475}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0399544, y: 0, z: -5.551115e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877476201}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292744, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476205}
+  m_Layer: 0
+  m_Name: Grenadier_LeftLowerLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595304, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966477}
+  m_LocalRotation: {x: 0.0000013645105, y: -0.0000005429291, z: -0.000005853683, w: 1}
+  m_LocalPosition: {x: -0.14572152, y: 0, z: 8.437695e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476217}
+  m_Father: {fileID: 6116633865877476199}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292746, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476207}
+  m_Layer: 0
+  m_Name: Grenadier_LeftShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595306, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966479}
+  m_LocalRotation: {x: 0.0000013946967, y: 0.0000010014885, z: 0.81227744, w: 0.58327127}
+  m_LocalPosition: {x: -0.033221174, y: -0.09513852, z: 0.04675031}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476197}
+  m_Father: {fileID: 6116633865877475969}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292756, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476209}
+  m_Layer: 0
+  m_Name: Grenadier_LeftHornArmor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595316, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966481}
+  m_LocalRotation: {x: 5.293956e-22, y: 3.1763736e-22, z: -1.009742e-27, w: 1}
+  m_LocalPosition: {x: -0.13447452, y: -0.11577979, z: 0.0040278854}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476211}
+  m_Father: {fileID: 6116633865877475969}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292758, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476211}
+  m_Layer: 0
+  m_Name: Grenadier_LeftHornArmorEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595318, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966483}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.57676136, y: 3.5527136e-17, z: 1.3322676e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877476209}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292752, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476213}
+  m_Layer: 0
+  m_Name: Grenadier_LeftHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595312, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966485}
+  m_LocalRotation: {x: -0.0000049578684, y: -0.00000037659927, z: 0.00000033324878, w: 1}
+  m_LocalPosition: {x: -0.0968626, y: 0.00000013661531, z: -0.0000000051649374}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476215}
+  - {fileID: 6116633865877476201}
+  m_Father: {fileID: 6116633865877476163}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292754, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476215}
+  m_Layer: 0
+  m_Name: Grenadier_LeftHandEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595314, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966487}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.08157749, y: -0.00000014486713, z: -0.0000000062398917}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877476213}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292764, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476217}
+  m_Layer: 0
+  m_Name: Grenadier_LeftFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595324, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966489}
+  m_LocalRotation: {x: -0.000017811686, y: 0.00000011258683, z: 0.0000029328182, w: 1}
+  m_LocalPosition: {x: -0.11172275, y: 0.00000021918903, z: -0.000000009398686}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476219}
+  m_Father: {fileID: 6116633865877476205}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292766, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476219}
+  m_Layer: 0
+  m_Name: Grenadier_LeftFootEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595326, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966491}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.056716215, y: -0.000000008550636, z: 0.000000009397521}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877476217}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292760, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476221}
+  m_Layer: 0
+  m_Name: Grenadier_LeftChestArmor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595320, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966493}
+  m_LocalRotation: {x: 0.25439483, y: 0.5448172, z: -0.2377015, w: 0.76286006}
+  m_LocalPosition: {x: 0.026398228, y: -0.11855767, z: 0.13718869}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476223}
+  m_Father: {fileID: 6116633865877475969}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292762, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476223}
+  m_Layer: 0
+  m_Name: Grenadier_LeftChestArmorEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595322, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966495}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.18374941, y: -1.4210854e-16, z: -2.1316282e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877476221}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292772, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475969}
+  - component: {fileID: 8830751554563325262}
+  - component: {fileID: 1542024507301453195}
+  m_Layer: 9
+  m_Name: Grenadier_Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594820, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966497}
+  m_LocalRotation: {x: 1.9304622e-17, y: 0.05708485, z: -3.3087225e-23, w: 0.99836934}
+  m_LocalPosition: {x: -0.14158611, y: 2.9961713e-17, z: -4.6629366e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476169}
+  - {fileID: 6116633865877476165}
+  - {fileID: 6116633865877476221}
+  - {fileID: 6116633865877476209}
+  - {fileID: 6116633865877476207}
+  - {fileID: 6116633865877476195}
+  - {fileID: 6116633865877475991}
+  - {fileID: 6116633865877475981}
+  m_Father: {fileID: 6116633865877476161}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8830751554563325262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d861dfcde2b8741977006ceca0471e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &1542024507301453195
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.125
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292768, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475973}
+  m_Layer: 0
+  m_Name: Grenadier_RightUpperLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594816, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966501}
+  m_LocalRotation: {x: 0.9983693, y: -0.0000051144, z: -0.057086304, w: 0.00000033425331}
+  m_LocalPosition: {x: 0.020613424, y: 0.1146815, z: 0.009722745}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877475987}
+  m_Father: {fileID: 6116633865877476161}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292770, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475975}
+  m_Layer: 0
+  m_Name: Grenadier_Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594818, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966503}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476161}
+  m_Father: {fileID: 6116633865877476029}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292780, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475977}
+  m_Layer: 0
+  m_Name: Grenadier_RightThumbEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594828, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966505}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.039955053, y: 0.0000008237221, z: -8.614661e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877475983}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292782, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475979}
+  m_Layer: 0
+  m_Name: Grenadier_RightUpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594830, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966507}
+  m_LocalRotation: {x: 0.000002312417, y: -0.000002837932, z: -0.16193178, w: 0.986802}
+  m_LocalPosition: {x: 0.12420445, y: 0.000000628705, z: 9.436896e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476193}
+  m_Father: {fileID: 6116633865877475981}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292776, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475981}
+  m_Layer: 0
+  m_Name: Grenadier_RightShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594824, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966509}
+  m_LocalRotation: {x: 0.81227744, y: 0.58327127, z: -0.0000013946967, w: -0.0000010014885}
+  m_LocalPosition: {x: -0.03322074, y: 0.0951385, z: 0.046750315}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877475979}
+  m_Father: {fileID: 6116633865877475969}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292778, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475983}
+  m_Layer: 0
+  m_Name: Grenadier_RightThumb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594826, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966511}
+  m_LocalRotation: {x: 0.00000002403728, y: 0.000000034703284, z: 0.4464767, w: 0.89479524}
+  m_LocalPosition: {x: 0.017185, y: 0.022425, z: 0.0036925487}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877475977}
+  m_Father: {fileID: 6116633865877475995}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292788, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475985}
+  m_Layer: 0
+  m_Name: Grenadier_RightHornArmorEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594836, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966513}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.5767625, y: 1.0658141e-16, z: 0.000000012523825}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877475991}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292790, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475987}
+  m_Layer: 0
+  m_Name: Grenadier_RightLowerLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594838, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966515}
+  m_LocalRotation: {x: 0.0000011077271, y: -0.0000006659117, z: -0.000006790873, w: 1}
+  m_LocalPosition: {x: 0.14572175, y: 0.000000030168575, z: 0.000000010018929}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877475999}
+  m_Father: {fileID: 6116633865877475973}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292784, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475989}
+  m_Layer: 0
+  m_Name: Grenadier_RightHandEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594832, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966517}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0815775, y: 1.4210854e-16, z: -4.5140833e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877475995}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292786, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475991}
+  m_Layer: 0
+  m_Name: Grenadier_RightHornArmor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594834, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966519}
+  m_LocalRotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123254e-17}
+  m_LocalPosition: {x: -0.13447338, y: 0.11577975, z: 0.004027866}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877475985}
+  m_Father: {fileID: 6116633865877475969}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292796, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475993}
+  m_Layer: 0
+  m_Name: Grenadier_RightFootEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594844, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966521}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.056716215, y: 0.00000004609901, z: -3.8273404e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877475999}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292798, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475995}
+  m_Layer: 0
+  m_Name: Grenadier_RightHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594846, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966523}
+  m_LocalRotation: {x: -0.0000027414492, y: -0.0000046287278, z: -1.2920636e-11, w: 1}
+  m_LocalPosition: {x: 0.09689833, y: 2.7806954e-10, z: 0.00000019159471}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877475989}
+  - {fileID: 6116633865877475983}
+  m_Father: {fileID: 6116633865877476193}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292792, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475997}
+  m_Layer: 0
+  m_Name: Grenadier_RightChestArmorEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594840, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966525}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.18374865, y: -0.000000014097022, z: 0.00000038498501}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877476195}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292794, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877475999}
+  m_Layer: 0
+  m_Name: Grenadier_RightFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877475999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594842, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966527}
+  m_LocalRotation: {x: -0.000048248014, y: -2.171301e-10, z: 2.151146e-11, w: 1}
+  m_LocalPosition: {x: 0.111722745, y: -0.00000015165548, z: -2.9693292e-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877475993}
+  m_Father: {fileID: 6116633865877475987}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292824, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476029}
+  m_Layer: 0
+  m_Name: GrenadierSkeleton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594872, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966557}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877475975}
+  m_Father: {fileID: 6116633865877476127}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250292826, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476031}
+  - component: {fileID: 6116633865866396217}
+  m_Layer: 0
+  m_Name: Grenadier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250594874, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966559}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0.021334417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877476127}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &6116633865866396217
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156236631740, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966559}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 48c4ba26d842cdb4786ed2bb55ab481c, type: 2}
+  - {fileID: 2100000, guid: a9bec445b198dd7458fcd489957a26b0, type: 2}
+  - {fileID: 2100000, guid: 39cc7989f799e874faf6589aeedb34f5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 887cc9cbcc10e8c45b6262198cc15ee6, type: 3}
+  m_Bones:
+  - {fileID: 6116633865877476161}
+  - {fileID: 6116633865877475969}
+  - {fileID: 6116633865877476209}
+  - {fileID: 6116633865877476221}
+  - {fileID: 6116633865877476169}
+  - {fileID: 6116633865877476165}
+  - {fileID: 6116633865877475981}
+  - {fileID: 6116633865877475979}
+  - {fileID: 6116633865877476193}
+  - {fileID: 6116633865877475995}
+  - {fileID: 6116633865877475983}
+  - {fileID: 6116633865877475991}
+  - {fileID: 6116633865877476195}
+  - {fileID: 6116633865877476207}
+  - {fileID: 6116633865877476197}
+  - {fileID: 6116633865877476163}
+  - {fileID: 6116633865877476213}
+  - {fileID: 6116633865877476201}
+  - {fileID: 6116633865877476199}
+  - {fileID: 6116633865877476205}
+  - {fileID: 6116633865877476217}
+  - {fileID: 6116633865877475973}
+  - {fileID: 6116633865877475987}
+  - {fileID: 6116633865877475999}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 6116633865877476161}
+  m_AABB:
+    m_Center: {x: -0.26495594, y: 0.000000029802322, z: 0.08546597}
+    m_Extent: {x: 0.61238223, y: 0.57577, z: 0.33728096}
+  m_DirtyAABB: 0
+--- !u!1 &6116633865877966655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250293178, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476127}
+  m_Layer: 0
+  m_Name: Grenadier Variant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595226, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1458008, y: 0, z: -0.013071299}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476031}
+  - {fileID: 6116633865877476029}
+  m_Father: {fileID: 2670157833895465967}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250293220, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476161}
+  m_Layer: 0
+  m_Name: Grenadier_Hips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595268, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966689}
+  m_LocalRotation: {x: -0.040366296, y: -0.040366296, z: -0.70595366, w: 0.70595366}
+  m_LocalPosition: {x: 5.0940847e-34, y: 0.33263832, z: -0.026918685}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476199}
+  - {fileID: 6116633865877475973}
+  - {fileID: 6116633865877475969}
+  m_Father: {fileID: 6116633865877475975}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250293222, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476163}
+  m_Layer: 0
+  m_Name: Grenadier_LeftArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595270, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966691}
+  m_LocalRotation: {x: -0.00000063178305, y: 0.0000004807117, z: 0.0000012215463, w: 1}
+  m_LocalPosition: {x: -0.14300081, y: 0.00000009133406, z: -0.0000000079727975}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476213}
+  m_Father: {fileID: 6116633865877476197}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250293216, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476165}
+  m_Layer: 0
+  m_Name: Grenadier_HelmetArmor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595264, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966693}
+  m_LocalRotation: {x: -2.961744e-17, y: 0.9063078, z: -2.961744e-17, w: 0.42261827}
+  m_LocalPosition: {x: -0.22403315, y: 5.3114812e-17, z: 0.2558614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476167}
+  m_Father: {fileID: 6116633865877475969}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250293218, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476167}
+  m_Layer: 0
+  m_Name: Grenadier_HelmetArmorEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595266, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966695}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.14533986, y: -3.7747583e-17, z: -1.4210854e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877476165}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250293228, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476169}
+  m_Layer: 0
+  m_Name: Grenadier_EyeArmor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595276, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966697}
+  m_LocalRotation: {x: 0.0000024282374, y: 0.707108, z: 0.000002428229, w: 0.7071056}
+  m_LocalPosition: {x: -0.10815294, y: 2.538316e-17, z: 0.155014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6116633865877476171}
+  m_Father: {fileID: 6116633865877475969}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6116633865877966699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250293230, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116633865877476171}
+  m_Layer: 0
+  m_Name: Grenadier_EyeArmorEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116633865877476171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3440410156250595278, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+  m_PrefabInstance: {fileID: 8889099443252898949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116633865877966699}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15576646, y: -1.5777218e-32, z: -7.105427e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6116633865877476169}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8889099443252898949
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2670157833895465967}
+    m_Modifications:
+    - target: {fileID: 3440410156250292772, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440410156250293178, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_Name
+      value: Grenadier Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440410156250595226, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440410156250595226, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1458008
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440410156250595226, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440410156250595226, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.013071299
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440410156250595226, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440410156250595226, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440410156250595226, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440410156250595226, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440410156250595226, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440410156250595226, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440410156250595226, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 3a14b45270347984696806ac1dcf36c9, type: 3}
